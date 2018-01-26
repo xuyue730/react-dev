@@ -40,8 +40,8 @@ app.get('/',function (req,res) {
     res.send('<h1> hello world </h1>')
 });
 
+// 查找数据
 app.get('/data', function (req, res) {
-    // 查找数据
     User.find({},function (err,doc) { 
         res.json(doc);
      })
