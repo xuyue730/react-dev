@@ -1,11 +1,11 @@
-const addGun = 'addGun'
-const reduceGun = 'reduceGun'
+const ADD_GUN = 'addGun'
+const REDUCE_GUN = 'reduceGun'
 
-function counter(state = 0, action) {
+export function counter(state = 0, action) {
     switch (action.type) {
-        case addGun:
+        case ADD_GUN:
             return state + 1
-        case reduceGun:
+        case REDUCE_GUN:
             return state - 1
         default:
             return 10
@@ -13,9 +13,9 @@ function counter(state = 0, action) {
 }
 
 export function addGun() { 
-    return { type: addGun }
+    return { type: ADD_GUN }
 }
 
 export function reduceGun() { 
-    return { type: reduceGun}
+    return { type: REDUCE_GUN}
 }

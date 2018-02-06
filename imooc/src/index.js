@@ -7,7 +7,7 @@ import { counter } from "./index.redux";
 const store = createStore(counter)
 
 function render() {
-    ReactDOM.render(<app store={store}/>,document.getElementById('root'))
+    ReactDom.render(<app store={store}/>,document.getElementById('root'))
 }
 
 render()
