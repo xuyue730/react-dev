@@ -1,7 +1,6 @@
 const ADD_GUN = 'addGun'
 const REMOVE_GUN = 'removeGun'
 
-
 export function counter(state = 0, action) {
     switch (action.type) {
         case ADD_GUN:
