@@ -8,7 +8,7 @@ import { counter, addGun, removeGun, addGunAsync } from "./index.redux";
 const store = createStore(counter,applyMiddleware(thunk))
 
 function render() {
-    ReactDom.render(<App store={store} addGun={addGun} removeGun={removeGun} addGunAsync={addGunAsync}>,document.getElementById('root'))
+    ReactDom.render(<App store={store} addGun={addGun} removeGun={removeGun} addGunAsync={addGunAsync}/>,document.getElementById('root'))
 }
 
 render()
