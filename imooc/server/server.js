@@ -10,10 +10,10 @@ mongoose.connection.on('connected',function(){
 //  user 表 
 // user字段，字符类型，必填
 // age 字段，数字类型，必填
-const User = mongoose.model('user',new mongoose.Schema({
-    user:{type:String,require:true},
-    age:{type:Number,require:true}
-}))
+// const User = mongoose.model('user',new mongoose.Schema({
+//     user:{type:String,require:true},
+//     age:{type:Number,require:true}
+// }))
 
 // 新增数据
 // User.create({
