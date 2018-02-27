@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import { createStore, applyMiddleware } from "redux";
+import { createStore, applyMiddleware } from "redux"
 import thunk from 'redux-thunk'
 import App from './App'
 import { counter, addGun, removeGun, addGunAsync } from "./index.redux";
