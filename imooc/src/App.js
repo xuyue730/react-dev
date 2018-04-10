@@ -1,6 +1,4 @@
 import React from "react";
-import { addGun } from "./index.redux";
-
 
 class App extends React.Component{
     // constructor(props) {
