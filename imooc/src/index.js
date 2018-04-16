@@ -21,7 +21,4 @@ render()
 
 store.subscribe(render)
 
-
-
-
 // 即将开始   Redux状态管理5-Chrome 中 Redux 调式工具
